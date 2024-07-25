@@ -1,0 +1,21 @@
+#[shell]
+#program = "C:\\Program Files\\Git\\git-bash"
+#args = ["-1"]
+
+working_directory = "C:\\Users\\leona"
+
+import = ["C:\\Users\\leona\\AppData\\Roaming\\alacritty\\themes\\alacritty-theme\\themes\\aura.toml"]
+
+[window]
+startup_mode = "Fullscreen"
+title = "Alacritty"
+dynamic_title = true 
+decorations_theme_variant = "None"
+decorations = "Full"
+opacity = 0.9
+blur = true 
+
+[font]
+size = 14.0
+normal = { family = "Cascadia Mono", style = "Regular"}
+
